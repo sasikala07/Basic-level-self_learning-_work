@@ -6,11 +6,11 @@
     background-color:violet ;
     
 }
-.topnav li{
+li{
     float: left;
     
 }
-.topnav li a{
+ li a{
     
     display: inline-block;
     padding: 20px;
@@ -18,17 +18,17 @@
     
    
 }
-.topnav li a:hover{
+ li a:hover{
     background-color: greenyellow;
 }
-.topnav li .login{
+.login{
     float: right;
 
 }
 
 @media screen and (max-width: 600px) 
 {
-    .topnav li .login {
+     .login {
         float: none;
     }
 }
