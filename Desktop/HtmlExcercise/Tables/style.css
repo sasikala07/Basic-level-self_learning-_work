@@ -1,0 +1,57 @@
+
+ table,th,td{
+    border-collapse:collapse;
+    border: 1px solid rgb(66, 63, 63) ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+.row{
+    background-color: green;
+}
+.row:hover{
+    background-color: blue;
+}
+
+.row:hover:nth-child(even){
+    background-color: violet;
+}
+
+.head{
+    background-color: grey;
+}
+.head:hover{
+    background-color: yellow;
+}
+
+
+/*th:hover{
+    background-color: rgb(233, 233, 33);
+}
+td:hover{
+    background-color:rgb(86, 86, 197);
+
+}
+th{
+    background-color: grey;
+    color: black;
+    
+}
+td{
+  background-color: rgb(58, 161, 58);
+   color: rgb(13, 2, 39);
+}*/
+
+
+
+
+ a:hover{
+     color: rgb(156, 53, 46);
+ }
+
+
+/*a:hover{
+    background-color: yellow;
+
+}*/
