@@ -9,6 +9,10 @@ function validate(){
         name.focus
         return false //dont execute submit button
     }
+    if (name==null || name=="") { 
+        document.getElementById('new').innerHTML = " name must be filled out" 
+        return false
+  } 
   
   
     var email=document.getElementById("email")
