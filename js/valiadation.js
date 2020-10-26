@@ -11,7 +11,7 @@ function validate(){
   
     var email=document.getElementById("email")
 
-   if (name.value==null || name.value=="") { 
+   if (email.value==null || email.value=="") { 
         document.getElementById('new1').innerHTML = " email field cannot be empty" 
         name.focus
         return false
