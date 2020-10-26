@@ -1,14 +1,7 @@
 function validate(){
    
     var name=document.getElementById("name")
-//     if(name.value==""){
-     
-  
-//         alert("name field cannot be empty")
-//         //document.write("The page cannot be empty")
-//         name.focus
-//         return false //dont execute submit button
-  //  }
+
     if (name.value==null || name.value=="") { 
         document.getElementById('new').innerHTML = " name field cannot be empty" 
         name.focus
@@ -17,11 +10,7 @@ function validate(){
   
   
     var email=document.getElementById("email")
-//     if(email.value==""){
-//         alert("email field cannot be empty")
-//         email.focus
-//         return false //dont execute submit button
-//     }
+
    if (name.value==null || name.value=="") { 
         document.getElementById('new1').innerHTML = " email field cannot be empty" 
         name.focus
