@@ -5,6 +5,7 @@ function validate(){
      
   
         alert("name field cannot be empty")
+        //document.write("The page cannot be empty")
         name.focus
         return false //dont execute submit button
     }
