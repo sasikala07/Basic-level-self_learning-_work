@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+
+        // var regex=/\d{2}/g
+         var regex=/^\[\"\d{10}\"\,\"\(\d{4}\)\-\d{7}\"\,\"\(\d{4}\) \d{7}\"]$/
+         var input=prompt("Enter something")
+         var result=input.match(regex)
+         alert(result)
+    
+//["9846543210","(0484)-2242303","(0485) 1234567"]
+
+    </script>
+</body>
+</html>
